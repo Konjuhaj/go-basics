@@ -3,6 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Starting Textio server..")
+	var anInteger int
+	var aFloat float64
+	var aBool bool
+	var aString string
 
+	fmt.Printf("%v, %v, %v, %v\n", anInteger, aFloat, aBool, aString)
 }
