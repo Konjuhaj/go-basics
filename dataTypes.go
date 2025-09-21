@@ -3,7 +3,7 @@ package main
 import "fmt"
 import "unsafe"
 
-func main() {
+func DataTypes() {
 	// Int types set to max integer value of 9,223,372,036,854,775,807
 	t_int := 9223372036854775807 //defaults to either 32 or 64 bits
 	t_int8 := int8(1)

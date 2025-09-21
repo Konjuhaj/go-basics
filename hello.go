@@ -11,4 +11,5 @@ func main() {
 	
 	fmt.Printf("%v, %v, %v, %v\n", anInteger, aFloat, aBool, aString)
 	Graz()
+	DataTypes()
 }
