@@ -8,6 +8,7 @@ func main() {
 	message := "hello world"
 	isGoat := true
 
-	fmt.Println("%v, %v, %v, %v", mySkillIssue, pi, message, isGoat)
-
+	fmt.Printf("%v, %v, %v, %v\n", mySkillIssue, pi, message, isGoat)
+	fmt.Println(mySkillIssue, pi, message, isGoat)
+	fmt.Printf("%T, %T ,%T, %T", mySkillIssue, pi, message, isGoat)
 }
