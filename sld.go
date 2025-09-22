@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func Sld() {
 
 	one, two, three := 1, 2, 3
 
