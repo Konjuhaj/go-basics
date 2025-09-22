@@ -9,5 +9,8 @@ func main() {
 	fmt.Println("Same line declaration with same type")
 	fmt.Println(one, two, three)
 	
-	
+	fmt.Println("Same line declaration with multi types")
+
+	s, b, f := "a string", true, 0.21
+	fmt.Println(s, b, f)	
 }
