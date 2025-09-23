@@ -8,7 +8,6 @@ func main() {
 	var aBool bool
 	var aString string
 
-	
 	fmt.Printf("%v, %v, %v, %v\n", anInteger, aFloat, aBool, aString)
 	Graz()
 	DataTypes()

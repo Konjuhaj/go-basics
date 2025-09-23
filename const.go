@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	const minutesInAnHour = 60
+	const secondsInAMinute = 60
+	const secondsInAnHour = 60*60 // Constants can be a computed value but must be known at compile time
+
+	fmt.Println("Number of seconds in an hour:", secondsInAnHour)
+
+}
