@@ -8,6 +8,8 @@ func main() {
 	const secondsInAMinute = 60
 	const secondsInAnHour = 60*60 // Constants can be a computed value but must be known at compile time
 
-	fmt.Println("Number of seconds in an hour:", secondsInAnHour)
+	mutableSecondsInAnHour = 60*60
+
+	fmt.Println("Number of seconds in an hour:", mutableSecondsInAnHour)
 
 }
