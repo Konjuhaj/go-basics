@@ -12,4 +12,6 @@ func main() {
 	Graz()
 	DataTypes()
 	Sld()
+	Const()
+	Runes()
 }

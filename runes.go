@@ -3,7 +3,7 @@ package main
 import "fmt"
 import "unicode/utf8"
 
-func main() {
+func Runes() {
 
 	const name = "test" // A string with 4 characters and four runes
 	const bear = "🐻" // an emoji with four characters and one rune

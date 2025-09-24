@@ -3,7 +3,7 @@ package main
 import "fmt"
 import "time"
 
-func main() {
+func Const() {
 
 	const minutesInAnHour = 60
 	const secondsInAMinute = 60
