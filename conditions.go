@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func Conditions() {
 	amountOfPeople := 2221
 	const venueLimit int = 30
 

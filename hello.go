@@ -14,4 +14,5 @@ func main() {
 	Sld()
 	Const()
 	Runes()
+	Conditions()
 }
