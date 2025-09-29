@@ -1,12 +1,18 @@
-package main 
+package main
 
-import "fmt"
+import "fmt" 
 
-func concat(s1, s2 string) string  {
-	return s1 + s2 
+func ignorePram() (int, string, string) {
+
+	return 18, "Besnik", "Konjuhaj"
+
 }
 
 func main() {
-	fmt.Println(concat("Hello, ", "World!"))
+	fmt.Println("Stargin Unit Tests") 
+
+	age, firstName, _ := ignorePram()
+
+	fmt.Printf("Hello my name is %v and I'm %d years old", firstName, age) 
 
 }
