@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"	
-	"time"
+	"fmt"
 )
 
 func printWithDelay(i int) {
@@ -10,11 +9,34 @@ func printWithDelay(i int) {
 	
 }
 
-func main() {
-	for i := 0; i < 5; i++ {
-		go printWithDelay(i)	
+func addToChannel(c chan int) {
+
+	for i := 10; i < 15; i++ {
+		c <- i
 	}
-	time.Sleep(5 * time.Second)
+	return 	
 }
+
+func main() {
+
+	testChannel := make(chan int)
+
+//	for i := 0; i < 5; i++ {
+//		go printWithDelay(i)	
+//	}
+
+	go addToChannel(testChannel)
+
+	for i := 0; i < 5; i++ {
+		
+		val, ok := <-testChannel
+		if !ok {
+			fmt.Printf("No more numbers\n")
+			break
+		}
+		fmt.Printf("current number is : %d \n", val)
+	}
+}
+
 
 
